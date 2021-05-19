@@ -1,4 +1,7 @@
-package com.espiritu.juego;
+package com.espiritu.juego.main;
+
+
+import com.espiritu.juego.clases.Ventana;
 
 public class Main {
 

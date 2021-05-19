@@ -1,4 +1,4 @@
-package com.espiritu.juego;
+package com.espiritu.juego.clases;
 
 
 import java.awt.Graphics2D;
@@ -7,24 +7,20 @@ import java.awt.Graphics2D;
 
 public class Pelota {
 	
-	int x = 610, 
-		y = 350, 
-		velX = 2, 
-		velY = 2, 
-		tamano = 40 ;
-	
+	int x = 610; 
+	int	y = 350; 
+	int	velX = 2; 
+	int	velY = 2; 
+	int	tamano = 40 ;
+
 	private Panel panelito;
+
+
 
     public Pelota (Panel xp){
 
       this.panelito = xp;
 
-    }
-
-    public Pelota (Panel xp, int xvel, int yvel){
-
-      this.panelito = xp;
-    
     }
 
     public Pelota (Panel xp, int xvel, int yvel, int xtamano){
